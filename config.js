@@ -44,6 +44,7 @@ const portfolio = {
     "Next.js",
     "AWS",
     "Azure Devops",
+    "Dockers",
     "MySQL",
     "MongoDB",
     "GitHub Actions",
