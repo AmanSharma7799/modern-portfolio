@@ -50,4 +50,31 @@ const portfolio = {
   ],
   contact: "+91 8856044490",
   email: "aman02468@gmail.com",
+  experience: [
+    {
+      company: "Deloitte",
+      title: "Consultant",
+      duration: "September 2023 – Present",
+      logo: "assets/Deloitte-Emblem.png",
+      responsibilities: [
+        " Engineered contracts to efficiently manage liquidity pools for decentralized exchanges (DEXs), boosting capital efficiency by 20%",
+        " Designed and deployed robust Solidity contracts to handle token swaps on decentralized exchanges, increasing transaction volume by 25%",
+        " Built cross-chain interoperability into smart contracts, facilitating seamless blockchain network interactions",
+        " Developed complex algorithms for smart contracts, successfully reducing gas fees by 15% while maintaining functionality",
+      ],
+    },
+    {
+      company: "Stepstrong Software",
+      title: "Senior Software Engineer",
+      duration: "April 2020 – August 2023",
+      logo: "assets/stepstrong.png",
+      responsibilities: [
+        " Developed Solidity-based solutions to track and verify the ownership of non-fungible tokens (NFTs), ensuring 99.9% accurate tracking.",
+        " Integrated smart contracts with Hardware Wallets, strengthening transactions security & reducing fraud risk by 35%.",
+        " Architected decentralized loan contracts, Processing over $2M in secure peer-to-peer lending with zero security breaches.",
+        " Integrated CI/CD pipelines using GitHub Actions and Docker",
+        " Implemented Scalable Microservices Using SpringBoot, improving System Uptime by 35% for an Insurance Platform.",
+      ],
+    },
+  ],
 };
