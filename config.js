@@ -20,7 +20,7 @@ const portfolio = {
     {
       name: "Flashloan Cross-Exchange",
       link: "https://github.com/AmanSharma7799/flashloan-cross-exchange",
-      desc: "Arbitrage bot using flash loans across DEXs(Uniswap & SushiSwap)",
+      desc: "Arbitrage bot using flash loans across DEXs(Uniswap & SushiSwap). It leverages FlashSwaps on Uniswap to borrow tokens and executes cross-exchange trades to capture arbitrage profits between the two liquidity pools.",
       platform: "github",
     },
     {
@@ -28,6 +28,42 @@ const portfolio = {
       link: "https://nft-minting-bay.vercel.app",
       desc: "NFT Minting Decentralized Application (DApp) built with React and Ethers.js v6. It connects to the already deployed ERC-721 smart contract on the Sepolia testnet, allowing users to mint NFTs by providing a metadata URL.",
       platform: "vercel",
+    },
+    {
+      name: "zkProof-of-Square",
+      link: "https://github.com/AmanSharma7799/zk-proof-impl",
+      desc: "This ZK circuit is written in Circom and uses Groth16 via SnarkJS to generate and verify zk-SNARK proofs. It showcases the core principles behind private computation, identity proofs, and trustless verification in Web3 and cryptography systems.",
+      platform: "github",
+    },
+    {
+      name: "Zer0Curve",
+      link: "https://github.com/AmanSharma7799/curve-dex",
+      desc: "A Curve-inspired DEX PoC focused on efficient stablecoin swaps with custom AMM logic. Also, it has StableSwap Pools, veCRV (voting escrow) & Governance system, among other features.",
+      platform: "github",
+    },
+    {
+      name: "Merkle Tree Verifier",
+      link: "https://github.com/AmanSharma7799/merkle-tree",
+      desc: "A simple and gas-efficient smart contract for verifying Merkle proofs on-chain using OpenZeppelin's MerkleProof library. This is useful for implementing whitelists, airdrops, and secure inclusion proofs.",
+      platform: "github",
+    },
+    {
+      name: "BouncyCastle RSA",
+      link: "https://github.com/AmanSharma7799/bouncy-castle-rsa",
+      desc: "This project demonstrates how to use the Bouncy Castle cryptographic library to perform RSA encryption and decryption in Java.",
+      platform: "github",
+    },
+    {
+      name: "IntentSwap",
+      link: "https://github.com/AmanSharma7799/intent-swap",
+      desc: "IntentSwap is a simplified proof-of-concept implementation of an intent-based token swapping protocol in Solidity. Instead of placing rigid on-chain orders, users sign flexible off-chain intents, which are later fulfilled by solvers through optimal routing or coincidence of wants (CoW) .",
+      platform: "github",
+    },
+    {
+      name: "MetaAuth",
+      link: "https://github.com/AmanSharma7799/authentication-with-metamask",
+      desc: "A way to integrate the use of blockchain for Authentication. This is a blockchain-enabled authentication project developed using NextJS, which allows user to sign up and login using Metamask.",
+      platform: "github",
     },
   ],
   skills: [
